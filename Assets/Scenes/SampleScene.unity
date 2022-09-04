@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &266877600
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -289,14 +289,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266877599}
-  m_LocalRotation: {x: 0.0061688414, y: 0.7070799, z: -0.7070798, w: 0.0061725667}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 426.912, y: 242.7635, z: 0}
   m_LocalScale: {x: 87.789345, y: 0.45723614, z: 49.381508}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -179}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
 --- !u!1 &401915865
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,14 +382,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692808149}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a09ab5fc64402d49b12d170a7577986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _ndiName: CLARA (Main Camera Sender)
-  _targetTexture: {fileID: 0}
-  _targetRenderer: {fileID: 0}
+  _targetTexture: {fileID: 8400000, guid: a2b0b6f10afbd514284116361cee5ba5, type: 2}
+  _targetRenderer: {fileID: 266877601}
   _targetMaterialProperty: _MainTex
   _resources: {fileID: 11400000, guid: 69304b86950074db7ba8caba75214004, type: 2}
 --- !u!1 &705507993
@@ -689,7 +689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1956424910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -846,7 +846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2120041080
 Transform:
   m_ObjectHideFlags: 0

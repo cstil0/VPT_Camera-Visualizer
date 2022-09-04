@@ -2306,8 +2306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 045786cf504bd7347842d6948241cbd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  urlSignaling: http://127.0.0.1:80
-  signalingType: Unity.RenderStreaming.Signaling.HttpSignaling
+  urlSignaling: http://192.168.0.12:80
+  signalingType: Unity.RenderStreaming.Signaling.WebSocketSignaling
   iceServers:
   - credential: 
     credentialType: 0
